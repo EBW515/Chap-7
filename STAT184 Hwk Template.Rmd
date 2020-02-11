@@ -19,7 +19,7 @@ rm(list = ls())
 library(mosaic)
 library(tidyverse)
 library(babynames)
-
+library(DataComputing)
 ```
 
 
@@ -27,9 +27,7 @@ library(babynames)
 ## Chapter 7 Exercises
 
 ### Problem 7.1
-```{r}
 
-```
 ### problem 7.2
 a.) The variable first should not be in quotes
 
@@ -47,22 +45,8 @@ c.) The argument in summarise should be tmp
 4.)the top 3 combos of first vote selection is "ABDUL M RAHAMAN THE ROCK" 3 times. The top 3 combos second vote selection is a undervote, "ABDUL M RAHAMAN THE ROCK" and "Betsy Hodges".
 
 5.) P-06 has the largest amount of ballots with 9711.
-### problem 7.4
-1.)
-babynames %>%
-  group_by(year,sex) %>%
-  summarise(total=sum(count))
-  
-2.) zipGeography %>%
-group_by(State) %>%
-summarise(pop=sum(population))
 
-3.) Minneapolis2013 %>%
-group_by(First) %>%
-summarise(voteReceived = n())
-
-4.) Minneapolis2013 %>%
-group_by(First) %>%
-summarise(VotesRecieved = n())
 ### problem 7.5
+a.) The VoterData_A only has two cases consisting of first and second
 
+b.)A case represents the total cal

@@ -49,4 +49,12 @@ c.) The argument in summarise should be tmp
 ### problem 7.5
 a.) The VoterData_A only has two cases consisting of first and second
 
-b.)A case represents the total cal
+b.)A case represents the total calculated
+
+c.) A case represents the first and second varibles similar to VoterData_A
+
+d.) The group_by should come before the summarise so it can read the vriables of first.
+### problem 7.6
+```{r}
+
+```

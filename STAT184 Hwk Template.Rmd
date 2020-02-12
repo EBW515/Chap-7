@@ -54,7 +54,17 @@ b.)A case represents the total calculated
 c.) A case represents the first and second varibles similar to VoterData_A
 
 d.) The group_by should come before the summarise so it can read the vriables of first.
+
 ### problem 7.6
+1.)
 ```{r}
+ggplot(data=ZipGeography,aes(x=LandArea,y=Population))+geom_point()+aes(colour=State)
+```
+2.)
+```{r}
+ ggplot()
+  + geom_polygon( data=ZipGeography, 
+          aes(x=population, y=State, fill = population/1000000), 
+          color="white", size = 0.2) 
 
 ```
